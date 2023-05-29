@@ -21,7 +21,10 @@ function MyReliefCenter() {
         const delivery = () => {
             console.log('id' + status._id)
             axios.put(`relief/confirmdelivery/${status._id}`)
-                .then((res) => console.log(res))
+                .then((res) => {
+                    console.log(res)
+                    setRow();
+                })
                 .catch((err) => console.log(err))
         }
         switch (status.Status) {

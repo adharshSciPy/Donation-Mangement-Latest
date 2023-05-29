@@ -277,13 +277,13 @@ function MyCollectionCenter() {
                                 </Card>
                             </Grid>
 
-                            {/* <Grid item sx={6}>
+                            <Grid item sx={6}>
                                 <Typography variant="h6" color="primary" sx={{ fontWeight: 600, fontSize: '15px' }}>
                                     {table ? 'New Requests' : 'Accepted Items'}
                                 </Typography>
-                            </Grid> */}
+                            </Grid>
 
-                            {/* {
+                            {
                                 (disRows.length === 0 || !table) ? (
                                     <Grid item sx={6}>
                                         <Button variant='outlined' onClick={() => table ? setTable(false) : setTable(true)}>Switch {table ? 'Accepted Items' : 'New Requests'}</Button>
@@ -319,7 +319,7 @@ function MyCollectionCenter() {
                                             </Card>
                                         </Grid>
                                     )
-                            } */}
+                            }
                         </Grid>
 
 
